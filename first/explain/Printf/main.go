@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Printf("Planet: %s\n", planet)
 	fmt.Printf("Distance: %d milions kms\n", distance)
-	fmt.Printf("Orbital period: %.3f days\n", orbital)
+	fmt.Printf("Orbital period: %.3of days\n", orbital)
 	fmt.Printf("Does %s has life? %t\n", planet, hasLife)
 
 	// Argument indexing: %[2]v -> the second argument will be placed here and
